@@ -54,22 +54,20 @@
 
 	var _ractive2 = _interopRequireDefault(_ractive);
 
-	var _app = __webpack_require__(4);
+	var _app = __webpack_require__(2);
 
 	var _app2 = _interopRequireDefault(_app);
 
-	var _counter = __webpack_require__(2);
+	var _counter = __webpack_require__(3);
 
 	var _counter2 = _interopRequireDefault(_counter);
 
-	var _navigation = __webpack_require__(5);
-
-	var _navigation2 = _interopRequireDefault(_navigation);
-
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	//import navigationComponent from './components/navigation.js';
+
 	_ractive2.default.components.counter = _counter2.default;
-	_ractive2.default.components.navigation = _navigation2.default;
+	//Ractive.components.navigation = navigationComponent
 
 	var App = new _ractive2.default({
 	  el: '#app',
@@ -78,6 +76,12 @@
 	    name: 'Paquitosoft'
 	  }
 	});
+
+	App.findComponent('navigation').set('feature', 'injected');
+	//App.findComponent('navigation').fire('injection')
+
+	// Just for the case you need to hack from console
+	window.App = App;
 
 	exports.default = App;
 
@@ -16708,6 +16712,12 @@
 
 /***/ },
 /* 2 */
+/***/ function(module, exports) {
+
+	module.exports = "<div>\n\t==============\t\t\n\t<counter />\n</div>"
+
+/***/ },
+/* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -16720,9 +16730,13 @@
 
 	var _ractive2 = _interopRequireDefault(_ractive);
 
-	var _counter = __webpack_require__(3);
+	var _counter = __webpack_require__(4);
 
 	var _counter2 = _interopRequireDefault(_counter);
+
+	var _navigation = __webpack_require__(5);
+
+	var _navigation2 = _interopRequireDefault(_navigation);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -16735,6 +16749,10 @@
 				}
 			};
 		},
+
+		components: {
+			navigation: _navigation2.default
+		},
 		oninit: function oninit() {
 			this.set('feature', 'feature - 2');
 		}
@@ -16743,16 +16761,10 @@
 	exports.default = counterComponent;
 
 /***/ },
-/* 3 */
-/***/ function(module, exports) {
-
-	module.exports = "<div>counter</div>\n<div>{{options.feature}}</div>\n<div>{{feature}}</div>"
-
-/***/ },
 /* 4 */
 /***/ function(module, exports) {
 
-	module.exports = "<div>\n\t{{navigation.feature}}\n\t===============\n\t<navigation />\n\t<counter />\n</div>"
+	module.exports = "<div>counter</div>\n<div>{{options.feature}}</div>\n<div>{{navigation.feature}}</div>\n<navigation />"
 
 /***/ },
 /* 5 */
@@ -16785,6 +16797,13 @@
 		},
 		oninit: function oninit() {
 			this.set('feature', 'nav feature - 2');
+
+			this.on('injection', function (event) {
+				console.log('navigation injection fired');
+				console.log('navigation injection event: %o', event);
+
+				this.set('feature', 'injected with event');
+			});
 		}
 	});
 
@@ -16794,7 +16813,7 @@
 /* 6 */
 /***/ function(module, exports) {
 
-	module.exports = "<div>counter</div>\n<div>{{options.feature}}</div>\n<div>{{feature}}</div>"
+	module.exports = "<div>navigation</div>\n<div>{{options.feature}}</div>\n<div>{{feature}}</div>"
 
 /***/ }
 /******/ ]);

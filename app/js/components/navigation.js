@@ -12,6 +12,13 @@ let navigationComponent = Ractive.extend({
 		},
 		oninit() {
 			this.set('feature', 'nav feature - 2');
+
+			this.on('injection', function(event){
+				console.log('navigation injection fired');
+				console.log('navigation injection event: %o', event);
+				
+				this.set('feature', 'injected with event');
+			})
 		}
 	});
 
