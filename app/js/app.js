@@ -1,13 +1,18 @@
-class Foo {  
-    constructor(name) {
-        this.name = name;
-    }
+import Ractive from 'ractive';
+import template from './views/app.html';
 
-    sayHi() {
-        alert(`Hi ${this.name}!!!`);
-    }
-}
+import counterComponent from './components/counter.js';
+import navigationComponent from './components/navigation.js';
 
-let bar = new Foo('Paquitosoft');
+Ractive.components.counter = counterComponent
+Ractive.components.navigation = navigationComponent
 
-bar.sayHi();
+let App = new Ractive({  
+  el: '#app',
+  template: template,
+  data: {
+    name: 'Paquitosoft'
+  }
+});
+
+export default App;
