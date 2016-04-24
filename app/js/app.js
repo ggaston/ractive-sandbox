@@ -1,5 +1,7 @@
 import Ractive from 'ractive';
+import TabsExample from './components/tabsExample';
 import template from './views/app.html';
+
 
 import counterComponent from './components/counter.js';
 //import navigationComponent from './components/navigation.js';
@@ -11,7 +13,10 @@ let App = new Ractive({
   el: '#app',
   template: template,
   data: {
-    name: 'Paquitosoft'
+    name: 'Name value'
+  },
+  components: {
+  	TabsExample
   }
 });
 

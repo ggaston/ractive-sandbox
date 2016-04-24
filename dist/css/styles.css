@@ -1,0 +1,11 @@
+.button-panel {
+	padding: 25px;
+	border: 1px solid #ececec;
+}
+.active {
+	background: #337ab7;
+	color: #fff;
+}
+.hidden {
+	opacity: .3;
+}

@@ -1,0 +1,23 @@
+<div class="tabbed">
+	<!-- tabs nav -->
+	<tabs selected="tab0">
+		<tabNav>
+			{{#tree:i}}
+			<tab name="tab{{i}}" active="{{#i===0}}true{{/}}">{{text}}</tab>
+			{{/}}
+		</tabNav>
+		<!-- /tabs nav -->
+		
+		<!-- tabs content -->
+		{{#tree:r}}
+		<tabContent name="tab{{r}}">
+			<ul class="dependecy_links">
+				{{#children}}
+				<li class="dependency_link">{{title}}</li>
+				{{/}}
+			</ul>
+		</tabContent>
+		{{/}}
+		<!-- /tabs content -->
+	</tabs>
+</div>	

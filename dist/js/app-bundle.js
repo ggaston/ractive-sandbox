@@ -54,11 +54,15 @@
 
 	var _ractive2 = _interopRequireDefault(_ractive);
 
-	var _app = __webpack_require__(2);
+	var _tabsExample = __webpack_require__(2);
+
+	var _tabsExample2 = _interopRequireDefault(_tabsExample);
+
+	var _app = __webpack_require__(12);
 
 	var _app2 = _interopRequireDefault(_app);
 
-	var _counter = __webpack_require__(3);
+	var _counter = __webpack_require__(13);
 
 	var _counter2 = _interopRequireDefault(_counter);
 
@@ -73,7 +77,10 @@
 	  el: '#app',
 	  template: _app2.default,
 	  data: {
-	    name: 'Paquitosoft'
+	    name: 'Name value'
+	  },
+	  components: {
+	    TabsExample: _tabsExample2.default
 	  }
 	});
 
@@ -16712,9 +16719,49 @@
 
 /***/ },
 /* 2 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "<div>\n\t==============\t\t\n\t<counter />\n</div>"
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _ractive = __webpack_require__(1);
+
+	var _ractive2 = _interopRequireDefault(_ractive);
+
+	var _tabs = __webpack_require__(3);
+
+	var _tabs2 = _interopRequireDefault(_tabs);
+
+	var _tabsExample = __webpack_require__(11);
+
+	var _tabsExample2 = _interopRequireDefault(_tabsExample);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var TabsExample = _ractive2.default.extend({
+
+		template: _tabsExample2.default,
+		data: function data() {
+			return {
+				tree: [{
+					text: 'SNI', children: [{ title: 'Snippet 1' }, { title: 'Snippet 2' }, { title: 'Snippet 3' }]
+
+				}, {
+					text: 'EXT', children: [{ title: 'External 1' }, { title: 'External 2' }]
+				}]
+			};
+		},
+		oninit: function oninit() {},
+
+		components: {
+			tabs: _tabs2.default
+		}
+	});
+
+	exports.default = TabsExample;
 
 /***/ },
 /* 3 */
@@ -16730,11 +16777,216 @@
 
 	var _ractive2 = _interopRequireDefault(_ractive);
 
-	var _counter = __webpack_require__(4);
+	var _tabNav = __webpack_require__(4);
+
+	var _tabNav2 = _interopRequireDefault(_tabNav);
+
+	var _tabContent = __webpack_require__(8);
+
+	var _tabContent2 = _interopRequireDefault(_tabContent);
+
+	var _tabs = __webpack_require__(10);
+
+	var _tabs2 = _interopRequireDefault(_tabs);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var Tabs = _ractive2.default.extend({
+		template: _tabs2.default,
+		data: function data() {
+			return {};
+		},
+
+		components: {
+			tabNav: _tabNav2.default,
+			tabContent: _tabContent2.default
+		}
+	});
+
+	exports.default = Tabs;
+
+/***/ },
+/* 4 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _ractive = __webpack_require__(1);
+
+	var _ractive2 = _interopRequireDefault(_ractive);
+
+	var _tab = __webpack_require__(5);
+
+	var _tab2 = _interopRequireDefault(_tab);
+
+	var _tabNav = __webpack_require__(7);
+
+	var _tabNav2 = _interopRequireDefault(_tabNav);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var TabNav = _ractive2.default.extend({
+		template: _tabNav2.default,
+		data: function data() {
+			return {};
+		},
+
+		components: {
+			tab: _tab2.default
+		}
+	});
+
+	exports.default = TabNav;
+
+/***/ },
+/* 5 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _ractive = __webpack_require__(1);
+
+	var _ractive2 = _interopRequireDefault(_ractive);
+
+	var _tab = __webpack_require__(6);
+
+	var _tab2 = _interopRequireDefault(_tab);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var Tab = _ractive2.default.extend({
+		template: _tab2.default,
+		data: function data() {
+			return {
+				active: false,
+				disabled: false
+			};
+		},
+		selected: function selected() {
+			if (this.get('disabled')) {
+				return;
+			}
+			this.parent.set('selected', this.get('name'));
+		},
+		onrender: function onrender() {
+			var container = this.container,
+			    self = this;
+
+			self.parent.observe('selected', function (selected) {
+				console.log('selected: %s', selected);
+				var name = self.get('name');
+
+				if (!selected) {
+					return;
+				}
+
+				self.set('active', name === selected);
+			});
+		}
+	});
+
+	exports.default = Tab;
+
+/***/ },
+/* 6 */
+/***/ function(module, exports) {
+
+	module.exports = "<li class='tab {{#active}}active{{/}} {{#disabled}}disabled{{/}}' on-click='selected()'>{{yield}}</li>"
+
+/***/ },
+/* 7 */
+/***/ function(module, exports) {
+
+	module.exports = "<ul class='uiTabs'>{{>content}}</ul>"
+
+/***/ },
+/* 8 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _ractive = __webpack_require__(1);
+
+	var _ractive2 = _interopRequireDefault(_ractive);
+
+	var _tabContent = __webpack_require__(9);
+
+	var _tabContent2 = _interopRequireDefault(_tabContent);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var TabContent = _ractive2.default.extend({
+		template: _tabContent2.default,
+		onrender: function onrender() {
+			var _this = this;
+
+			this.parent.observe('selected', function (selected) {
+				if (!selected) {
+					return;
+				}
+
+				_this.set('active', selected === _this.get('name'));
+			});
+		}
+	});
+
+	exports.default = TabContent;
+
+/***/ },
+/* 9 */
+/***/ function(module, exports) {
+
+	module.exports = "<div class='tabContent {{#!active}}hidden{{/}}'>{{yield}}</div>"
+
+/***/ },
+/* 10 */
+/***/ function(module, exports) {
+
+	module.exports = "<div class='tabs {{selected}}' selected=\"\">{{>content}}</div>"
+
+/***/ },
+/* 11 */
+/***/ function(module, exports) {
+
+	module.exports = "<div class=\"tabbed\">\n\t<!-- tabs nav -->\n\t<tabs selected=\"tab0\">\n\t\t<tabNav>\n\t\t\t{{#tree:i}}\n\t\t\t<tab name=\"tab{{i}}\" active=\"{{#i===0}}true{{/}}\">{{text}}</tab>\n\t\t\t{{/}}\n\t\t</tabNav>\n\t\t<!-- /tabs nav -->\n\t\t\n\t\t<!-- tabs content -->\n\t\t{{#tree:r}}\n\t\t<tabContent name=\"tab{{r}}\">\n\t\t\t<ul class=\"dependecy_links\">\n\t\t\t\t{{#children}}\n\t\t\t\t<li class=\"dependency_link\">{{title}}</li>\n\t\t\t\t{{/}}\n\t\t\t</ul>\n\t\t</tabContent>\n\t\t{{/}}\n\t\t<!-- /tabs content -->\n\t</tabs>\n</div>\t\n"
+
+/***/ },
+/* 12 */
+/***/ function(module, exports) {
+
+	module.exports = "<div>\n\t==============\t\t\n\t<counter />\n\t<TabsExample />\n</div>"
+
+/***/ },
+/* 13 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _ractive = __webpack_require__(1);
+
+	var _ractive2 = _interopRequireDefault(_ractive);
+
+	var _counter = __webpack_require__(14);
 
 	var _counter2 = _interopRequireDefault(_counter);
 
-	var _navigation = __webpack_require__(5);
+	var _navigation = __webpack_require__(15);
 
 	var _navigation2 = _interopRequireDefault(_navigation);
 
@@ -16761,13 +17013,13 @@
 	exports.default = counterComponent;
 
 /***/ },
-/* 4 */
+/* 14 */
 /***/ function(module, exports) {
 
 	module.exports = "<div>counter</div>\n<div>{{options.feature}}</div>\n<div>{{navigation.feature}}</div>\n<navigation />"
 
 /***/ },
-/* 5 */
+/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -16780,7 +17032,7 @@
 
 	var _ractive2 = _interopRequireDefault(_ractive);
 
-	var _navigation = __webpack_require__(6);
+	var _navigation = __webpack_require__(16);
 
 	var _navigation2 = _interopRequireDefault(_navigation);
 
@@ -16810,7 +17062,7 @@
 	exports.default = navigationComponent;
 
 /***/ },
-/* 6 */
+/* 16 */
 /***/ function(module, exports) {
 
 	module.exports = "<div>navigation</div>\n<div>{{options.feature}}</div>\n<div>{{feature}}</div>"
