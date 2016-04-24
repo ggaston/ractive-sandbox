@@ -16966,7 +16966,7 @@
 /* 12 */
 /***/ function(module, exports) {
 
-	module.exports = "<div>\n\t==============\t\t\n\t<counter />\n\t<TabsExample />\n</div>"
+	module.exports = "<div class=\"container\">\n\t\n\t<section>\n\t\t<h2>Counter Test</h2>\n\t\t<counter />\t\t\n\t</section>\n\t<hr>\n\t<section>\n\t\t<h2>Tabs Component Example</h2>\n\t\t<TabsExample />\t\t\n\t</section>\n</div>"
 
 /***/ },
 /* 13 */
