@@ -16,7 +16,8 @@
     "eslint": "^2.2.0",
     "node-static": "^0.7.7",
     "raw-loader": "^0.5.1",
-    "webpack": "^1.12.14"
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
     "eslint": "^2.3.0",
