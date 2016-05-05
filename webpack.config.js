@@ -1,7 +1,10 @@
 module.exports = {  
-    entry: './app/js/app.js',
+    entry: {
+        tabs: './app/js/app.js',
+        form: './app/js/form.js'       
+    },
     output: {
-        filename: './dist/js/app-bundle.js'
+        filename: './dist/js/[name]-bundle.js'
     },
     module: {
         loaders: [

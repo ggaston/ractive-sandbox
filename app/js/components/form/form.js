@@ -1,5 +1,5 @@
 import Ractive from 'ractive'
-import Validator from './validator'
+import Validator from './../validator/validator'
 
 
 var Form = Ractive.extend({

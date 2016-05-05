@@ -1,0 +1,23 @@
+<section>
+	<h2>Form</h2>
+	<cms-form>
+	<form>
+		<div class="form-group">
+			<input type="text" value="{{data.title}}" class="form-control" required />
+		</div>
+
+		<div class="form-group">
+			<input type="text" list="lang" value="" class="form-control" />
+			<datalist id="lang">
+				{{#data.lang}}
+					<option value="{{.}}">
+				{{/}}
+			</datalist>
+		</div>
+
+		<div class="form-group">
+			<div href="#" on-click="validate()">validate</div>
+		</div>
+	</form>
+	</cms-form>
+</section>

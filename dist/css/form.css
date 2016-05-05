@@ -1,0 +1,3 @@
+.form-control:invalid {
+	border-color: #ff3300;
+}

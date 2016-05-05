@@ -38,11 +38,9 @@ class validator {
 		this.rules = rules;
 		console.log('data: %o', data)
 		console.log('rules: %o',rules)
-		for(){
-			console.log('obj: %o', this.getObj(data, rules.));
-			}
+		for(let keypath in rules){
+			console.log('obj: %o', this.getObj(data, rules[keypath]));
 		}
-
 	}
 
 	getObj(obj, keypath) {
