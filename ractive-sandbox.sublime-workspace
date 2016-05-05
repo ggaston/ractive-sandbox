@@ -1,0 +1,1726 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vali",
+				"validateDecorator"
+			],
+			[
+				"arr",
+				"arr1"
+			],
+			[
+				"de",
+				"dependencies"
+			],
+			[
+				"param",
+				"param1"
+			],
+			[
+				"clon",
+				"cloneObj"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"hidden",
+				"hiddenRegions"
+			],
+			[
+				"hi",
+				"hiddenRegions"
+			],
+			[
+				"hidde",
+				"hidden"
+			],
+			[
+				"enabled",
+				"enabledRegions"
+			],
+			[
+				"get",
+				"getRegionList"
+			],
+			[
+				"regi",
+				"regionList"
+			],
+			[
+				"re",
+				"regionTree"
+			],
+			[
+				"ac",
+				"activeLanguage"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"Router",
+				"RouterComponent"
+			],
+			[
+				"set",
+				"setRegion"
+			],
+			[
+				"com",
+				"components"
+			],
+			[
+				"Te",
+				"TextListComponent"
+			],
+			[
+				"product",
+				"productParam"
+			],
+			[
+				"xA",
+				"xAboxListPrice"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"log",
+				"logUrl"
+			],
+			[
+				"fake",
+				"fakeSelector"
+			],
+			[
+				"iner",
+				"innerHTML"
+			],
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"first",
+				"firstChild"
+			],
+			[
+				"page",
+				"pageId"
+			],
+			[
+				"data",
+				"dataLayer"
+			],
+			[
+				"old",
+				"oldBrowserPerf"
+			],
+			[
+				"track",
+				"trackType"
+			],
+			[
+				"tra",
+				"trackError"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"asw",
+				"aswparam"
+			],
+			[
+				"upda",
+				"updateLinks"
+			],
+			[
+				"cart",
+				"cartLink"
+			],
+			[
+				"link",
+				"linkDecorator"
+			],
+			[
+				"contex",
+				"contextBox"
+			],
+			[
+				"ab",
+				"abEl"
+			],
+			[
+				"pricey",
+				"priceyTypo"
+			],
+			[
+				"prepend",
+				"prependTo	.prependTo()"
+			],
+			[
+				"des",
+				"destroyRum"
+			],
+			[
+				"rem",
+				"removeEvent"
+			],
+			[
+				"enc",
+				"encodeURIComponent"
+			],
+			[
+				"onerr",
+				"onerror"
+			],
+			[
+				"last",
+				"lastSection"
+			],
+			[
+				"tabs",
+				"tabs-anchor-section"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"MAX",
+				"max-height"
+			],
+			[
+				"tb",
+				"tabs-anchor-clone"
+			],
+			[
+				"stri",
+				"strictEqual"
+			],
+			[
+				"tim",
+				"timing"
+			],
+			[
+				"coo",
+				"cookieVal"
+			],
+			[
+				"cookie",
+				"cookieDomain"
+			],
+			[
+				"new",
+				"newError"
+			],
+			[
+				"push",
+				"pushError"
+			],
+			[
+				"eve",
+				"eventType"
+			],
+			[
+				"ob",
+				"objectKeys"
+			],
+			[
+				"off",
+				"offset	.offset()"
+			],
+			[
+				"is",
+				"is-downloadable"
+			],
+			[
+				"swi",
+				"swipe-bullets"
+			],
+			[
+				"swipe",
+				"swipe-bullet"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"cu",
+				"currentTarget"
+			],
+			[
+				"tab",
+				"tabs-nav-item-1"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"margi-",
+				"margin-bottom"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"dis",
+				"discountType"
+			],
+			[
+				"blac",
+				"black-friday"
+			],
+			[
+				"fot",
+				"font-weight"
+			],
+			[
+				"bo",
+				"bold"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"nore",
+				"no-repeat"
+			],
+			[
+				"origin",
+				"originInternalId"
+			],
+			[
+				"inter",
+				"internalid"
+			],
+			[
+				"close",
+				"closePopup"
+			],
+			[
+				"remov",
+				"removeClass	.removeClass()"
+			],
+			[
+				"conte",
+				"context"
+			],
+			[
+				"open",
+				"openPopup"
+			],
+			[
+				"cop",
+				"copyDataAttr"
+			],
+			[
+				"over",
+				"overlaySelector"
+			],
+			[
+				"po",
+				"popup"
+			],
+			[
+				"read",
+				"ready	$(document).ready"
+			],
+			[
+				"internal",
+				"internalid"
+			],
+			[
+				"next",
+				"nextIndex"
+			],
+			[
+				"tm",
+				"tmplInternalId"
+			],
+			[
+				"show",
+				"showPreloader"
+			],
+			[
+				"test",
+				"testCookie"
+			],
+			[
+				"curren",
+				"currentLevelNum"
+			],
+			[
+				"toggl",
+				"toggleNav"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"s_p_",
+				"s_p_int"
+			],
+			[
+				"ani",
+				"animateScroll"
+			],
+			[
+				"att",
+				"attribute"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"pag",
+				"pageName"
+			],
+			[
+				"content",
+				"content-holder"
+			],
+			[
+				"lang",
+				"lang-selector-open"
+			],
+			[
+				"acti",
+				"activeLevelClass"
+			],
+			[
+				"subL",
+				"subLevelReady"
+			],
+			[
+				"nav",
+				"navClasses"
+			],
+			[
+				"curr",
+				"currentLevel"
+			],
+			[
+				"count",
+				"countIndex"
+			],
+			[
+				"tr",
+				"triggerMsg"
+			],
+			[
+				"int",
+				"internalIdToObj"
+			],
+			[
+				"data-i",
+				"data-item-internalid"
+			],
+			[
+				"con",
+				"console	console.log"
+			],
+			[
+				"id",
+				"idObj"
+			],
+			[
+				"for",
+				"formatedPrice"
+			],
+			[
+				"up",
+				"updateLink"
+			],
+			[
+				"app",
+				"appendHadd"
+			],
+			[
+				"rm-se",
+				"rm-select"
+			],
+			[
+				"pare",
+				"parents	.parents()"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"to",
+				"toggleHandler"
+			],
+			[
+				"lin",
+				"linkHandler"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/js/components/form.js",
+			"settings":
+			{
+				"buffer_size": 584,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "mark",
+		"selected_items":
+		[
+			[
+				"mark",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"packi",
+				"Package Control: Install Package"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Toggle Annotations"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"diff",
+				"Git: Diff Tool Current File"
+			],
+			[
+				"git cus",
+				"Git: Custom Command"
+			],
+			[
+				"gitco",
+				"Git: Commit"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git a",
+				"Git: Add Current File"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"git c",
+				"Git: Quick Commit"
+			],
+			[
+				"git cha",
+				"Git: Change Branch"
+			],
+			[
+				"checkout",
+				"Git: Checkout Current File"
+			],
+			[
+				"gti che",
+				"Git: Checkout Current File"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git stas",
+				"Git: Stash Changes"
+			],
+			[
+				"git stash",
+				"Git: Stash Apply"
+			],
+			[
+				"git add ",
+				"Git: Add Current File"
+			],
+			[
+				"gitc",
+				"Git: Quick Commit"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"git add cu",
+				"Git: Add Current File"
+			],
+			[
+				"gita",
+				"Git: Add Current File"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git dif",
+				"Git: Diff Current File"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"git pull",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git bra",
+				"Git: Change Branch"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"branch ",
+				"Git: Change Branch"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git amen",
+				"Git: Amend Commit"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"gitcha",
+				"Git: Change Branch"
+			],
+			[
+				"git chan",
+				"Git: Change Branch"
+			],
+			[
+				"git me",
+				"Git: Merge Branch"
+			],
+			[
+				"git ",
+				"Git: Change Branch"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"gitgu",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"git hist",
+				"GitGutter: Show Comparing Against"
+			],
+			[
+				"git his",
+				"Git: Commit history"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git res",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git ne",
+				"Git: New Branch"
+			],
+			[
+				"git di",
+				"Git: Diff Current File"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"md",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"git che",
+				"Git: Change Branch"
+			],
+			[
+				"gi b",
+				"Git: New Branch"
+			],
+			[
+				"git reset",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"rever",
+				"File: Revert"
+			],
+			[
+				"gi stat",
+				"Git: Status"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"gc",
+				"Git: Commit"
+			],
+			[
+				"gitad",
+				"Git: Add..."
+			],
+			[
+				"gad",
+				"Git: Add Current File"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"git ame",
+				"Git: Amend Commit"
+			],
+			[
+				"git lo",
+				"Git: Log All"
+			],
+			[
+				"git am",
+				"Git: Amend Commit"
+			],
+			[
+				"gs",
+				"Git: Status"
+			],
+			[
+				"gia",
+				"Git: Amend Commit"
+			],
+			[
+				"gr",
+				"Grunt"
+			],
+			[
+				"oa",
+				"Open all URLs"
+			],
+			[
+				"cas",
+				"Convert Case: Swap Case"
+			],
+			[
+				"g",
+				"Grunt"
+			],
+			[
+				"caas",
+				"Convert Case: Lower Case"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"case",
+				"Convert Case: Lower Case"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"ca",
+				"Convert Case: Lower Case"
+			],
+			[
+				"GR",
+				"Grunt"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"grd",
+				"Set Syntax: Graphviz (DOT)"
+			],
+			[
+				"gr\\",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"mk",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"gru",
+				"Grunt"
+			],
+			[
+				"grun",
+				"Grunt"
+			],
+			[
+				"m",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mr",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mak",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"url",
+				"StringEncode: URL Encode"
+			],
+			[
+				"ur",
+				"StringEncode: URL Decode"
+			],
+			[
+				"pacl",
+				"Package Control: List Packages"
+			],
+			[
+				"decod",
+				"StringEncode: URL Decode"
+			],
+			[
+				"de",
+				"StringEncode: URL Decode"
+			],
+			[
+				"encode",
+				"StringEncode: URL Encode"
+			],
+			[
+				"deco",
+				"StringEncode: URL Decode"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"uc",
+				"Convert Case: Upper Case"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"sort",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"sor",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"cu",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ud",
+				"StringEncode: URL Decode"
+			],
+			[
+				"cs",
+				"Convert Case: Swap Case"
+			],
+			[
+				"ue",
+				"StringEncode: URL Encode"
+			],
+			[
+				"enu",
+				"StringEncode: URL Decode"
+			],
+			[
+				"du",
+				"StringEncode: URL Decode"
+			],
+			[
+				"enco",
+				"StringEncode: URL Decode"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: con",
+				"Snippet: console.log"
+			],
+			[
+				"packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"linte",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"decode",
+				"StringEncode: URL Decode"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"CASE",
+				"Convert Case: Swap Case"
+			],
+			[
+				"str",
+				"StringEncode: URL Encode"
+			],
+			[
+				"stru",
+				"StringEncode: URL Decode"
+			],
+			[
+				"strurl",
+				"StringEncode: URL Encode"
+			],
+			[
+				"urlde",
+				"StringEncode: URL Decode"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 414.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/gaston/work/ractivejs/ractive-sandbox/.gitignore",
+		"/home/gaston/work/ractive/racteeve/package.json",
+		"/home/gaston/.ssh/id_rsa.pub",
+		"/home/gaston/.ssh/known_hosts",
+		"/home/gaston/work/ractive/racteeve/src/components/tmpl/from.html",
+		"/home/gaston/work/ractivejs/ractive-sandbox/app/js/components/tabsExample.js",
+		"/home/gaston/work/ractivejs/ractive-sandbox/app/js/components/tabs/tabNav.js",
+		"/home/gaston/work/ractivejs/ractive-sandbox/app/js/components/tabs/tabContent.js",
+		"/home/gaston/work/array.js",
+		"/home/gaston/work/ractivejs/validation.js",
+		"/home/gaston/work/ractivejs/ractive-sandbox/app/js/components/tabs/tabs.js",
+		"/home/gaston/work/ractivejs/ractive-sandbox/app/js/components/tabs/tab.js",
+		"/home/gaston/work/ractivejs/ractive-sandbox/package.json",
+		"/home/gaston/work/ractivejs/ractive-sandbox/dist/css/styles.css",
+		"/home/gaston/work/ractivejs/ractive-sandbox/index.html",
+		"/home/gaston/work/ractive/racteeve/src/components/tmpl/dependencies.html",
+		"/home/gaston/work/ractive/racteeve/src/components/tmpl/tab.html",
+		"/home/gaston/work/ractive/racteeve/src/components/tmpl/tabNav.html",
+		"/home/gaston/work/ractive/racteeve/src/components/tabs.js",
+		"/home/gaston/work/ractive/racteeve/src/components/tabContent.js",
+		"/home/gaston/work/ractive/racteeve/src/components/tab.js",
+		"/home/gaston/work/ractive/racteeve/src/components/dependencies.js",
+		"/home/gaston/work/ractive/racteeve/src/components/tmpl/tabContent.html",
+		"/home/gaston/work/ractive/racteeve/src/components/tmpl/tabs.html",
+		"/home/gaston/work/ractivejs/ractive-sandbox/app/js/views/dependencies.html",
+		"/home/gaston/work/ractive/racteeve/.gitignore",
+		"/home/gaston/work/ractive/racteeve/webpack.config.js",
+		"/home/gaston/work/ractive/racteeve/src/components/tmpl/button.html",
+		"/home/gaston/work/sandbox/dom-mod.html",
+		"/home/gaston/work/reactjs/notetaker-ractive/package.json",
+		"/home/gaston/work/snuffles/snuff2influx.js",
+		"/home/gaston/node_modules/influx/README.md",
+		"/home/gaston/work/snuffles/pc.json",
+		"/home/gaston/work/reactjs/datatable.html",
+		"/home/gaston/work/hoard/extensions/chrome/README.md",
+		"/home/gaston/work/codemirra/codemirror/plugin.js",
+		"/home/gaston/work/codemirra/codemirror/dist/emmet.js",
+		"/home/gaston/work/portal-web/src/public/dev/app.js",
+		"/home/gaston/work/portal-web/src/public/dev/app/view/prefix/prefixMenu.html",
+		"/home/gaston/work/portal-web/src/public/dev/app/component/prefix/prefixMenu.js",
+		"/home/gaston/work/portal-web/src/public/dev/app/view/region/regionSelector.html",
+		"/home/gaston/work/portal-web/src/public/dev/style/component/region/regionSelector.less",
+		"/home/gaston/work/portal-web/src/public/dev/style/app.less",
+		"/home/gaston/work/portal-web/src/public/dev/app/component/region/regionSelector.js",
+		"/home/gaston/work/snuffles/snuffles.js",
+		"/home/gaston/www/html/danielagabrielova.cz/video/test1.html",
+		"/home/gaston/.influxdb/influxdb.conf",
+		"/home/gaston/rb/README.md",
+		"/home/gaston/rb/2016/01/RB_movements_20160403100248.csv",
+		"/home/gaston/rb/2016/RB_movements_20160403100248.csv",
+		"/home/gaston/rb/logstash-rb.conf",
+		"/home/gaston/rb/2016/01/RB_movements_20160207105128_1.csv",
+		"/home/gaston/rb/2016/02/RB_movements_20160403100248.csv",
+		"/home/gaston/work/portal-web/src/public/dev/app/view/entity/entityList.html",
+		"/home/gaston/work/portal-web/src/public/dev/style/component/entity/entityList.less",
+		"/home/gaston/work/portal-web/src/public/dev/app/model/user.js",
+		"/home/gaston/work/portal-web/src/public/dev/app/component/file/fileList.js",
+		"/home/gaston/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/gaston/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/gaston/work/portal-web/src/public/dev/app/component/router/router.js",
+		"/home/gaston/work/portal-web/src/public/dev/app/view/router/router.html",
+		"/C/Users/gabriel/Work/portal-web/src/public/dev/app/view/app.html",
+		"/C/Users/gabriel/Work/portal-web/src/public/dev/app/component/entity/entityList.js",
+		"/C/Users/gabriel/Work/portal-web/src/public/dev/style/skin/example.less",
+		"/C/Users/gabriel/Work/portal-web/.git/rebase-apply/patch",
+		"/C/Users/gabriel/Work/portal-web/src/public/dev/util/router.js",
+		"/C/Users/gabriel/Work/portal-web/src/public/npm-debug.log",
+		"//files/proj/Content pages/Tooltip links functionality/glossary.cs-cz.xml",
+		"/C/Users/gabriel/Work/tmp/glossary.cs-cz.xml",
+		"/C/Users/gabriel/Work/portal-web/src/public/dev/app/model/user.js",
+		"/C/Users/gabriel/Work/portal-web/src/public/build.bat",
+		"/C/Users/gabriel/Work/portal-web/src/public/dev/app.js",
+		"/C/Users/gabriel/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/gabriel/Work/portal-web/src/public/dev/app/component/region/regionSelector.js",
+		"//cms.int.avast.com/grunt-dev/production/j/lp/lp-safe-emailing.js",
+		"/C/Users/gabriel/AppData/Roaming/Sublime Text 3/Packages/User/webportal.sublime-build",
+		"/C/Users/gabriel/AppData/Roaming/Sublime Text 3/Packages/User/apidoc.sublime-build",
+		"/C/Users/gabriel/Work/portal-web/src/public/dev/app/component/file/fileEdit.js",
+		"/C/Users/gabriel/Work/portal-web/src/public/dev/app/component/file/fileList.js",
+		"//cms.int.avast.com/grunt-dev/production/j/free-antivirus-download.js",
+		"/C/Users/gabriel/Work/portal-web/src/public/dev/app/component/external/externalList.js",
+		"/C/Users/gabriel/Work/conf/eslint.json",
+		"/C/Users/gabriel/Work/tmp/merges",
+		"//cms.int.avast.com/grunt-dev/production/j/lp/_lp-safe-emailing.js",
+		"/C/Users/gabriel/Work/tmp/phantomjs-runner.js",
+		"/C/Users/gabriel/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/gabriel/Work/tmp/windows",
+		"/C/Users/gabriel/Work/tmp/windows-8-antivirus",
+		"//cms.int.avast.com/grunt-dev/production/j/mkt/v9/sv1/avast.mkt.min.js",
+		"/C/Users/gabriel/Work/Upgrade to Windows 10 Pro, version 1511, 10586",
+		"//cms.int.avast.com/grunt-dev/production/j/s_codeRum.js",
+		"/C/Users/gabriel/Work/portal-web/src/public/dev/app/model/file.js",
+		"/C/Users/gabriel/Work/tmp/jquery.avast.tooltip-1.5.0.js",
+		"/C/Users/gabriel/Work/jsxhint.js",
+		"/C/Users/gabriel/Work/jshint.conf.js",
+		"/C/Users/gabriel/Work/portal-web/src/public/dev/app/component/external/externalEdit.js",
+		"/C/Users/gabriel/Work/portal-web/src/public/README.md",
+		"/C/Users/gabriel/Work/portal-web/src/public/dev/app/component/router/router.js",
+		"/C/Users/gabriel/Work/portal-web/.gitignore",
+		"/C/Users/gabriel/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/gabriel/AppData/Roaming/Sublime Text 3/Packages/User/Babel.sublime-settings",
+		"/C/Users/gabriel/AppData/Roaming/Sublime Text 3/Packages/JSHint/JSHint.sublime-build",
+		"/C/Users/gabriel/AppData/Roaming/Sublime Text 3/Packages/JSHint/reporter.js",
+		"/C/Users/gabriel/AppData/Roaming/Sublime Text 3/Packages/JSHint/JSHint.py",
+		"/C/Users/gabriel/Work/programs/Sublime Text 2/Data/Packages/User/webportal.sublime-build",
+		"/C/Users/gabriel/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/.sublimelinterrc",
+		"/C/Users/gabriel/Work/portal-web/src/public/dev/app/model/files.js",
+		"/C/Users/gabriel/Work/backup/dataweb/downloads_160217.xml",
+		"/C/Users/gabriel/Work/programs/Sublime Text 2/Data/Packages/User/casper.sublime-build",
+		"/C/Users/gabriel/Work/programs/Sublime Text 2/Data/Packages/User/node.sublime-build",
+		"/C/Users/gabriel/Work/portal-web/.git/hooks/pre-commit",
+		"/C/Users/gabriel/Work/portal-web/build.sh",
+		"/C/Users/gabriel/Work/programs/Sublime Text 2/Data/Packages/User/untitled.sublime-build",
+		"/C/Users/gabriel/Work/programs/Sublime Text 2/Data/Packages/User/v10.sublime-build",
+		"/C/Users/gabriel/Work/portal-web/src/public/doc/locales/de.js",
+		"/C/Users/gabriel/Desktop/Disk D/work/gtm-datalayer/gaptest-datalayer.js",
+		"/C/Users/gabriel/Downloads/gabriel_Update_avast_rum__Fail_test_on_T.patch",
+		"/C/Users/gabriel/Work/web-3rdparty-boilerplate/package.json",
+		"/C/Users/gabriel/Work/web-3rdparty-boilerplate/Gruntfile.js",
+		"/C/Users/gabriel/Documents/Fiddler2/Captures/Responses/avast.js",
+		"/C/Users/gabriel/Work/grunt/avast-grunt-tasks/package.json",
+		"/C/Users/gabriel/AppData/Roaming/Sublime Text 3/Packages/Wallaby/Default (Linux).sublime-keymap",
+		"/C/Users/gabriel/Work/web-3rdparty-boilerplate/src/c/base-v11.less",
+		"/C/Users/gabriel/Work/grunt/avast-grunt-tasks/task/less.js",
+		"//cms.int.avast.com/grunt-dev/production/j/avast/chromeBanner.js",
+		"/C/Users/gabriel/Work/web-cms/src/model.file.apidoc.js",
+		"/C/Users/gabriel/Work/tmp/downloads.xml",
+		"/C/Users/gabriel/Work/backup/dataweb/downloads_160127.xml"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"",
+			".,D:\\programs\\Sublime Text 2\\Data",
+			"."
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"result",
+			"{{activated}}",
+			"FireButton",
+			"highlight",
+			"__default__",
+			"this",
+			"source",
+			"__emmetKeymap",
+			"selected",
+			"prefixName",
+			"searchType",
+			":",
+			"Model",
+			"RegionSelectorComponent",
+			"RouterHandler",
+			"\"",
+			"data",
+			">",
+			"model",
+			"obser",
+			"searchType",
+			"data",
+			"http",
+			"data",
+			"validation",
+			"all",
+			"routerC",
+			"ONLINE-MS",
+			"chromeBanner",
+			"http:",
+			"'",
+			"@Orange",
+			"ctrl+alt+u",
+			"hadd",
+			"//cms.int.avast.com/grunt-dev/production",
+			"\\",
+			"//cms.int.avast.com/grunt-dev/production/",
+			"\\",
+			"//cms.int.avast.com/output/production.webPortal/static.avast.com/web/min/j/",
+			"\\",
+			"//cms.int.avast.com/output/production.webPortal/static.avast.com/web/min/j/",
+			"\\",
+			"detect",
+			"INLIN",
+			"FAV-ONLINE",
+			"AR",
+			"echo",
+			"\\d",
+			"1",
+			"\\d*.\\d",
+			"1",
+			"1\n$",
+			"*.\n$",
+			"\\d\n$",
+			"\n$",
+			"no-dis",
+			"?3131313",
+			"no-disco",
+			"no-discount",
+			", ",
+			"(",
+			")",
+			"setLanguage",
+			"//cms.int.avast.com/grunt-dev/production",
+			"\\",
+			"//cms.int.avast.com/grunt-dev/production",
+			"\\",
+			"//cms.int.avast.com/grunt-dev/production",
+			"\\",
+			"//cms.int.avast.com/grunt-dev/production",
+			"\\",
+			"//cms.int.avast.com/grunt-dev/production",
+			"\\",
+			"//cms.int.avast.com/grunt-dev/production",
+			"\\",
+			"trck",
+			"\\\\cms.int.avast.com\\grunt-dev\\production",
+			"logData",
+			"stepLog",
+			", ",
+			"//cms.int.avast.com/grunt-dev/production/",
+			"\\",
+			"FAV-ONLINE",
+			"capture",
+			"findClas",
+			"xMaintenance",
+			"cap",
+			"close",
+			"MARKET",
+			"eVar45",
+			"evar45",
+			"p_sts",
+			"FAV-ONLINE",
+			"p_sts",
+			"renewal",
+			",",
+			";",
+			"&amp;",
+			"confirm removal",
+			"to be removed",
+			"1433523105105",
+			"?mboxDisable=1",
+			"S$",
+			"premier",
+			".preview.production.web.int.avast.com",
+			"ASWPARAM\\..*?\\/",
+			"p_vbd",
+			"\\n",
+			"><",
+			"diff",
+			"FMS",
+			"market",
+			"{break}",
+			"\\n",
+			"^0$",
+			"{break}",
+			"\\n",
+			"{break}",
+			"\\n",
+			"^0$",
+			"monthly",
+			"pricey-typo",
+			"-AR",
+			"WD-1504-WEB-MONTHLY-1A",
+			"-AR,",
+			"ISE-",
+			"gtm",
+			"\\"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"obj",
+			"enabled",
+			"\\'",
+			"couponCode",
+			"https://static.avast.com/10/web/min",
+			"https://static.avast.com/10/web/min/j",
+			"/",
+			"https://static.avast.com/10/web/min/",
+			"/",
+			"https://static.avast.com/10/web/min/j/",
+			"/",
+			"https://static.avast.com/10/web/min/j/",
+			"/",
+			"https://static.avast.com/10/web/min",
+			"logger",
+			"https://static.avast.com/10/web/min/",
+			"/",
+			"&",
+			"getMinutes",
+			">\\n<",
+			"price-wrapper",
+			"-MR",
+			"-MR,",
+			"showPopup",
+			"/",
+			"-AR",
+			"PPMONTH",
+			"===================================================================================================",
+			".stage.",
+			"/",
+			"https://www.avast.ua/",
+			"https://www.avast.ru/",
+			"https://www.avast.com/",
+			"PAV-ONLINE",
+			"PRE-ONLINE",
+			"<a probability=\"100\" stevMkt=\"\" variant=\"arrow\" browser=\"chrome\">",
+			"probability=\"100\" stevMkt=\"\" variant=\"arrow\" browser=\"chrome\"",
+			"iavs9x/avast_pro_antivirus_setup_online.exe",
+			"iavs9x/avast_premier_antivirus_setup_online.exe",
+			"https://www.avast.com.preview.production.web.int.avast.com",
+			"/",
+			"www.avast.com.preview.production.web.int.avast.com",
+			"sendImg",
+			"=",
+			"&",
+			"(x)",
+			"+",
+			".abox-home-boxes-584",
+			"#top .more-584b",
+			"#abox-home-boxes-584b",
+			"https://static.avast",
+			"-AR",
+			"PR-RNWCNT",
+			"id=\"game-",
+			"market://details?id=com.avast.android.mobilesecurity&referrer=utm_source%3Dwww.avast.com%26utm_medium%3Dlink%26utm_content%3Dindex-android%26utm_campaign%3DAMS",
+			"http://static.avast.com/10",
+			"http://static.avast.com/10/",
+			"http://static.avast.com",
+			"http://static.avast.com/10/web/c/",
+			"priceInstallments",
+			"originProduct",
+			"productSource",
+			"\\n",
+			"this.abEl",
+			"&",
+			"actionbox",
+			"#abox-home-boxes-2015",
+			"#abox-home-boxes-v10",
+			"abox-home-boxes-v10",
+			"buildInternalId",
+			"#abox-home-all-in-one",
+			"fillData",
+			"loopBoxes",
+			"pullData",
+			"pushData",
+			"fillBoxes",
+			"hasClass",
+			"addClass",
+			"$",
+			"removeClass",
+			"markActiveLevel",
+			"e_uc",
+			"euc",
+			"'",
+			"js-altered-link",
+			"404 - Not Found",
+			"#abox-home-boxes-reflow",
+			"http://static.avast.com/",
+			"//",
+			".reflow #abox-home-boxes",
+			"fetchBoxes",
+			"bindedProduct",
+			"this.bindedProduct",
+			"switch.filter",
+			"http://static.avast.com",
+			"/",
+			":",
+			"pc",
+			"MKT-043",
+			"V3",
+			"042-",
+			">",
+			"<",
+			"http://static.avast.com/web/",
+			"position: absolute; /*position: fixed;*/",
+			"../i/secureline",
+			"#tabs-anchor",
+			"/div",
+			"div class=\"fake-box\"",
+			"eVar6,eVar53,",
+			"eVar6, eVar53,",
+			"http://static.avast.com/9/web",
+			"http://static.avast.com/9/web/",
+			"makeStore",
+			",FR-UPGRADE",
+			"&",
+			"http://web.cms.wg.int.avast.com/stage/output/",
+			"\\n",
+			"/",
+			"iavs9x/avast_premier_antivirus_setup.exe",
+			"iavs9x/avast_internet_security_setup.exe",
+			"iavs9x/avast_pro_antivirus_setup.exe",
+			".responsive-table",
+			"http://web.cms.wg.int.avast.com/stage/output/static.avast.com",
+			"http://web.cms.wg.int.avast.com/stage/output/",
+			"#abox-business-multiyear",
+			"http://web.cms.wg.int.avast.com/v9/output/static.avast.com",
+			"this.headerEl"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/js/components/form.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"at_wb_tests_view": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 452.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 259.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "Packages/User/node.sublime-build",
+	"project": "ractive-sandbox.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ru",
+				"/D/work/TPMO-1973/ru-RU/text_67000_en-ww.xml"
+			],
+			[
+				"ja",
+				"/D/work/TPMO-1973/ja_JP/text_67000_en-ww.xml"
+			],
+			[
+				"zh",
+				"/D/work/TPMO-1973/zh-CN/text_67000_en-ww.xml"
+			],
+			[
+				"do",
+				"/D/work/dotw"
+			],
+			[
+				"pl",
+				"/D/work/TPMO-1973/pl-PL/text_67000_en-ww.xml"
+			],
+			[
+				"de-d",
+				"/D/work/TPMO-1973/de-DE/text_67000_en-ww.xml"
+			],
+			[
+				"es-",
+				"/D/work/TPMO-1973/es-ES/text_67000_en-ww.xml"
+			],
+			[
+				"fi-f",
+				"/D/work/TPMO-1973/fi-FI/text_67000_en-ww.xml"
+			],
+			[
+				"no-",
+				"/D/work/TPMO-1973/no-NO/text_67000_en-ww.xml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\gabriel\\Work\\javascript-modules\\javascript-modules.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 490.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
