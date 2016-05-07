@@ -5,11 +5,11 @@
 			<input type="text" value="{{data.count}}" class="form-control" decorator='validation:required,numeric' />
 		</div>
 		<div class="form-group">
-			<input type="text" value="{{data.owner}}" class="form-control" decorator='validation:required' />
+			<input type="text" value="{{data.owner}}" class="form-control" decorator='validation' />
 		</div>
 
 		<div class="form-group">
-			<input type="text" value="{{data.title}}" class="form-control" decorator='validation:"required","data.title"' />
+			<input type="text" value="{{data.title}}" class="form-control" decorator='validation: "data.title", "required"' />
 		</div>
 
 		<div class="form-group">
