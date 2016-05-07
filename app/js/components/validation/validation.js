@@ -1,41 +1,17 @@
-import Ractive from 'ractive'
+/**
+ * Validation <> Validation
+ * Validation.validate <> process of validation
+ * Validation.validator <> validation condition  
+ */
 
-class validator {
+class Validation {
 	constructor(data, rules){
-		
-	}
-
-	decorator(node, keypath){
-		/**
-		 * Map of
-		 */
-		let attrMap = {
-			isRequired: {attribute: 'require'}
-		}
-
-		node.setAttribute('required', '');
-		//node.setAttribute('pattern', '[a-z]');
-
-
-
-		console.log('decorator node: %o', node);
-		console.log('decorator keypath: %o', keypath);
-		console.log('decorator this: %o', this)
-
-		let validation = this.get('validation')
-		console.log('decorator validation: %o', validation)
-		console.log('decorator nodeInfo: %o', Ractive.getNodeInfo(node))
-		
-		return {
-			teardown: function(){
-				console.log('teardown');
-			}
-		}
+		[this.rules, this.data] = Array.prototype.slice.call(arguments).reverse();		
 	}
 	
 	validate(data, rules){
-		this.data = data;
-		this.rules = rules;
+		this.data = this.data || data;
+		this.rules = this.rules || rules;
 		console.log('data: %o', data)
 		console.log('rules: %o',rules)
 		for(let keypath in rules){
@@ -65,8 +41,12 @@ class validator {
 
 		  return this.getObj(obj[parent], remainder);
 		}
-	  }
+	}
+
+	message(msg) {
+		console.log(msg)
+	}
 }
 
 
-export default validator
+export default Validation
