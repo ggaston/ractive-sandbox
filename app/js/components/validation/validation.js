@@ -100,36 +100,48 @@ class Validation {
 	}
 
 	decorator() {
-		let self = this 
-
+		let self = this
 
 		return function(node) {
-			let [rule, keypath] = Array.prototype.slice.call(arguments, 1).reverse();
-			let rules = rule ? rule.split(',') : []
-			// Use everything apart from valid property. Validation is done by browser itself	 
-			let validator = typeof self.validators[rule] === 'function' ? self.validators[rule]() : null;
+			let [rules, keypath] = Array.prototype.slice.call(arguments, 1).reverse(),
+				validator;
 
-			console.log('Decorator validators: %o', self.validators)
-			console.log('Decorator keypath: %o', keypath)
+			rules = rules ? rules.split(',') : [rules]
+			rules.forEach((rule) => {
+				validator = typeof self.validators[rule] === 'function' ? self.validators[rule]() : null;
 
-			// TODO: split first
-			if(validator){
-				//node.setAttribute('pattern', '[a-z]');
-				for(let key in validator){
+				console.log('Decorator validators: %o', self.validators)
+				console.log('Decorator keypath: %o', keypath)
 
-					if(key !== 'valid' && key !== 'errorMessage'){
-						console.log('Decorator: Set attribute %s to %o', key, validator[key])
-						node.setAttribute(key, validator[key]);
-					}
+				if(validator){
+					//node.setAttribute('pattern', '[a-z]');
+					for(let key in validator){
 
-					if(key === 'errorMessage'){
-						// This works a little bit different than expected. Whenever set its always invalid.
-						// Have to be always updated on change
-						
-						//node.setCustomValidity(validator[key]);
-					}
-				}				
-			}
+						// Use everything apart from valid and errorMessage property. Validation is done by browser itself	 
+						if(key === 'valid'){
+							break;
+						}
+						if(key === 'errorMessage'){
+							break;
+						}
+						if(key === 'pattern'){
+							// Cumulate patterns
+							if(node.getAttribute(key)){
+								node.setAttribute(key, node.getAttribute(key) + '|' + validator[key]);
+							} else {
+								node.setAttribute(key, validator[key]);	
+							}
+							break;
+						}
+						// DOM attribute have higher priority
+						if(!node.getAttribute(key)){
+							console.log('Decorator: Set attribute %s to %o', key, validator[key])
+							node.setAttribute(key, validator[key]);						
+						}	
+					}				
+				}
+
+			})
 
 			// PROBABLY OBSOLETE: Merge constraint from DOM and model
 			if(keypath && validator){
