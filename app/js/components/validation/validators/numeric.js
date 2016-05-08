@@ -1,4 +1,4 @@
-function required(value) {
+function numeric(value) {
 
 	let check = (value) => {
 		return ((typeof value !== "undefined" || value !== null) || value !== '') 
@@ -6,9 +6,9 @@ function required(value) {
 
 	return {
 		required: '',
-		errorMessage: 'Pole je povinne',
+		pattern: '[0-9]',
 		valid: check.call(this, value)
 	}		 
 }	
 
-export default required
+export default numeric

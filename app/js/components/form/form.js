@@ -24,16 +24,16 @@ var Form = Ractive.extend({
 
 		//validation.validate(this.get(''))		
 		let validation = new Validation({
-				'data.title': 'required, numeric, ractaman',
-				'data.owner': 'reqiured',
+				'data.owner': 'required',
 				'data.lang': ['required', {
 					name: 'ractivate',
-					pattern: '[a-z]',
+					pattern: 'ractivate',
 					errorMessage: 'Be ractivated!',
 					valid: (val) => {
 						return val === 'ractivate'
 					}
 				}],
+				'data.title': 'required, numeric, ractivate',
 			})
 
 		console.log('validationDecorator: %o', validation.decorator())
