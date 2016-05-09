@@ -33,7 +33,7 @@ var Form = Ractive.extend({
 						return val === 'ractivate'
 					}
 				}],
-				'data.title': 'required, numeric, ractivate',
+				'data.title.tooltip': 'required, numeric, ractivate',
 			})
 
 		console.log('validationDecorator: %o', validation.decorator())
@@ -42,16 +42,23 @@ var Form = Ractive.extend({
 		//this.decorators.validation.validity = validation
 
 		console.log('this.decorators: %o', this.decorators.validation.validity)
+		this.on('syntheticValidate', (e) => {
+			validation.validate({
+				data: {
+					owner: 'Owner Name',
+					lang: 'Lang name'
+				}
+			})
+		})
 	},
 	oninit(){
 	},
 	onrender(){
 	},
-	syntheticValidate(){
-		console.log(this)
-		console.log(Ractive.decorators)
-		this.decorators.validation.validate()
-	},
+	// syntheticValidate(){
+	// 	console.log(this)
+	// 	this.decorators.validation.validate()
+	// },
 	validate(e){
 		this.fire('validate', e)
 	}

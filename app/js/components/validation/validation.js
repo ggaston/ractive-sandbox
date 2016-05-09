@@ -89,14 +89,45 @@ class Validation {
 	 */
 	validate(data, rules){
 
-		//
 		this.data = this.data || data;
 		this.rules = this.rules || rules;
+		let self = this,
+			validators,
+			keypathValue,
+			result;
+
 		console.log('data: %o', data)
-		console.log('rules: %o',rules)
-		for(let keypath in rules){im
-			console.log('obj: %o', this.getObj(data, rules[keypath]));
+		console.log('rules: %o', rules)
+		console.log('this.rules: %o', this.rules)
+		console.log('this: %o', this)
+		for(let keypath in this.rules){
+			console.log('obj: %o from keypath: %o', this.getObj(data, keypath), keypath);
+			keypathValue = this.getObj(data, keypath);
+			//Array of validators which have to be applied on each keypath
+			validators = this.validatorsToArray(this.rules[keypath])
+			result = validators.map((validator) => {
+				return self.validators[validator](keypathValue.data[keypathValue.child]);
+			})
+			
+			console.log('validation result: %o', result);
+			// check validity
 		}
+	}
+
+	// Rules can be mixed array with objects and strings. Or comma separated strings.
+	validatorsToArray(rules){
+		let _validators = rules,
+			validatorsArray;
+
+		if(Array.isArray(rules)){
+			_validators = rules.reduce((validatorNames, validator) => {
+				let _validator = validator.name || validator;
+				return !validatorNames ? _validator : validatorNames + ',' + _validator;
+			})
+		}
+		validatorsArray = _validators.split(',')
+
+		return validatorsArray
 	}
 
 	decorator() {
@@ -253,7 +284,7 @@ class Validation {
 		if (pos === -1) {
 		  // simple path, return the reference
 		  return {
-			object: obj,
+			data: obj,
 			child: keypath
 		  };
 
