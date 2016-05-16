@@ -35,7 +35,7 @@ class Validation {
 			 	if(validator){
 			 		this.validators[validator.name] = validator.obj		 		
 			 	}
-			 })
+			})
 		}
 	}
 
@@ -48,6 +48,7 @@ class Validation {
 			// Build validator
 			//validator = 'dummy ' + rule.name + ' value';
 			validator = this.buildValidator(rule);
+			console.log('validator is: %o', validator)
 		} else {
 			console.log('setValidator detect if validator registered: %o', rule)
 			// Check if validator already registered
@@ -71,9 +72,13 @@ class Validation {
 		delete validator.name;
 
 		return function(value){
-			if(validator.valid){
-				validator.valid = validator.valid.call(validator, value)
+			console.log('Building validator -> rule %o', rule);
+			console.log('Building validator -> value: %s', value);
+			console.log('Building validator -> validation function: %o', rule.valid.call(validator, value));
+			if(rule.valid){
+				validator.valid = rule.valid.call(validator, value)
 			} 
+			console.log('Building validator -> validator.valid: %s', validator.valid);
 
 			return validator;
 		}
@@ -94,24 +99,57 @@ class Validation {
 		let self = this,
 			validators,
 			keypathValue,
+			queue = [],
 			result;
 
-		console.log('data: %o', data)
-		console.log('rules: %o', rules)
-		console.log('this.rules: %o', this.rules)
-		console.log('this: %o', this)
+		//console.log('data: %o', data)
+		//console.log('rules: %o', rules)
+		//console.log('this.rules: %o', this.rules)
+		//console.log('this: %o', this)
 		for(let keypath in this.rules){
-			console.log('obj: %o from keypath: %o', this.getObj(data, keypath), keypath);
 			keypathValue = this.getObj(data, keypath);
+			validators = this.validatorsToArray(this.rules[keypath]);
+			//console.log('obj: %o from keypath: %o', this.getObj(data, keypath), keypath);
+			//console.log('Validators strings: %o', validators);
+			//console.log('Validators: %o', self.validators);
+			console.log('Validators value: %o', keypathValue.data[keypathValue.child]);
 			//Array of validators which have to be applied on each keypath
-			validators = this.validatorsToArray(this.rules[keypath])
 			result = validators.map((validator) => {
+				queue.push({[validator] : keypath});
 				return self.validators[validator](keypathValue.data[keypathValue.child]);
 			})
 			
 			console.log('validation result: %o', result);
-			// check validity
 		}
+			// check validity
+
+		/**
+		 * Build array of paths
+		 */
+		
+		console.log(queue)
+		let seq = self.sequence(queue);
+		seq.then(function(response){
+			// Response is just last validation function
+			console.log('Then: %o', response)
+		})
+		
+		
+	}
+
+	sequence(arr){
+		let self = this;
+
+		return arr.reduce((promise, validator) => {
+			return promise.then(() => {
+				let key = Object.keys(validator)[0],
+					keypathValue = self.getObj(self.data, validator[key]);
+
+				console.log('Key: %s', key)
+				return self.validators[key](keypathValue.data[keypathValue.child])
+			})
+
+		}, Promise.resolve())
 	}
 
 	// Rules can be mixed array with objects and strings. Or comma separated strings.
@@ -240,16 +278,8 @@ class Validation {
 				self.showDomMessage(node, validator)
 			})
 
-			let methods = {
-				validate: function(el){
-					console.log('decorator validate.method')
-				}	
-			}
 			
 			return {
-				validate: function(el){
-					methods.validate(el)
-				},
 				teardown: function(){
 					console.log('teardown');
 				}

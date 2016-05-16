@@ -24,16 +24,14 @@ var Form = Ractive.extend({
 
 		//validation.validate(this.get(''))		
 		let validation = new Validation({
-				'data.owner': 'required',
-				'data.lang': ['required', {
+				'data.owner': ['required', {
 					name: 'ractivate',
-					pattern: 'ractivate',
-					errorMessage: 'Be ractivated!',
-					valid: (val) => {
+					valid: function(val){
+						console.log('Inside valid: %s', val)
 						return val === 'ractivate'
 					}
 				}],
-				'data.title.tooltip': 'required, numeric, ractivate',
+				'data.lang': 'required'
 			})
 
 		console.log('validationDecorator: %o', validation.decorator())
@@ -43,12 +41,7 @@ var Form = Ractive.extend({
 
 		console.log('this.decorators: %o', this.decorators.validation.validity)
 		this.on('syntheticValidate', (e) => {
-			validation.validate({
-				data: {
-					owner: 'Owner Name',
-					lang: 'Lang name'
-				}
-			})
+			validation.validate(this.get(''))
 		})
 	},
 	oninit(){
