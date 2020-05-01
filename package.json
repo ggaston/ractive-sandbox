@@ -4,7 +4,9 @@
   "description": "nope",
   "main": "index.js",
   "scripts": {
-    "start": "webpack -w"
+    "start": "webpack -w",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "gaston",
   "license": "ISC",
@@ -22,6 +24,8 @@
   },
   "dependencies": {
     "eslint": "^2.3.0",
-    "ractive": "^0.7.3"
-  }
+    "ractive": "^0.7.3",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
